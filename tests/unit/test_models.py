@@ -35,7 +35,7 @@ def test_tarefa_deve_iniciar_como_nao_concluida_por_padrao():
     """
     task = Todo(1, "Estudar Testes")
 
-    assert task.completed is True
+    assert task.completed is False
 
 
 def test_tarefa_com_titulo_vazio_deve_lancar_erro():
